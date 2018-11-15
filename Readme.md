@@ -5,9 +5,6 @@ This is a cellular automaton model where each agent lives in a cell on a 2D grid
 
 An agent's state represents its "opinion" and is shown by the color of the cell the agent lives in. Each color represents an opinion - there are 16 of them. At each time step, an agent's opinion is influenced by that of its neighbors, and changes to the most common one found; ties are randomly arbitrated. As an agent adapts its thinking to that of its neighbors, the cell color changes.
 
-### Credits 
-All credits go to [Project Mesa](https://github.com/projectmesa/mesa) for developing this model.
-
 ### Parameters you can play with:
 (you must change the code to alter the parameters at this stage)
 * Vary the number of opinions.
@@ -34,6 +31,9 @@ Then open your browser to [http://127.0.0.1:8521/](http://127.0.0.1:8521/) and p
 * ``color_patches/model.py``: Defines the cell and model classes. The cell class governs each cell's behavior. The model class itself controls the lattice on which the cells live and interact.
 * ``color_patches/server.py``: Defines an interactive visualization.
 * ``run.py``: Launches an interactive visualization
+
+## Credits 
+All credits go to [Project Mesa](https://github.com/projectmesa/mesa) for developing this model.
 
 ## Further Reading
 
