@@ -5,7 +5,7 @@ This is a cellular automaton model where each agent lives in a cell on a 2D grid
 
 An agent's state represents its "opinion" and is shown by the color of the cell the agent lives in. Each color represents an opinion - there are 16 of them. At each time step, an agent's opinion is influenced by that of its neighbors, and changes to the most common one found; ties are randomly arbitrated. As an agent adapts its thinking to that of its neighbors, the cell color changes.
 
-### Parameters you can play with:
+### Parameters you can play with
 (you must change the code to alter the parameters at this stage)
 * Vary the number of opinions.
 * Vary the size of the grid
